@@ -1,5 +1,5 @@
 import java.util.*;
-public class RightTriangleQ3 {
+public class RightTriangleQ4 {
     public static void NumTriangle(int n){
         for( int i = 1; i <= n; i++){
             for( int j = 1; j <= i; j++){
