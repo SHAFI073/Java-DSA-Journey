@@ -16,5 +16,6 @@ public class HalfRhombusQ10 {
         System.out.println("Enter the value : ");
         int num = sc.nextInt();
         halfRhombus(num);
+        
     }
 }
