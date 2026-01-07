@@ -3,7 +3,7 @@ public class PatternQ17 {
     public static void pattern17( int n){
         for( int i = 0; i < n; i++){
             //space
-            for( int j = 1; j <= n - i + 1; j++){
+            for( int j = 1; j <= n - i - 1; j++){
                 System.out.print(" ");
             }
             //characters
@@ -15,7 +15,7 @@ public class PatternQ17 {
                 else ch--;
             }
             //space
-            for( int j = 1; j <= n - i + 1; j++){
+            for( int j = 1; j <= n - i - 1; j++){
                 System.out.print(" ");
             }
             System.out.println();
